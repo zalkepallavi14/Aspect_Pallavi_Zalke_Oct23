@@ -1,0 +1,19 @@
+/* WAP to Greater number among 2 integers*/
+main()
+{
+  int a,b;
+  clrscr();
+  printf("Enter the two number:");
+  scanf("%d%d",&a,&b);
+  printf("\n Number 1: %d",a);
+  printf("\n Number 2: %d",b);
+  if(a>b)
+  {
+    printf("\n Number 1 is greatest among all integers: %d",a);
+  }
+  else
+  {
+    printf("\n Number 2 is greatest among all integers: %d",b);
+  }
+getch();
+}
